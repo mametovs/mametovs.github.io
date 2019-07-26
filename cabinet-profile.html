@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+	<header class="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="header-item header-item   align-items-center">
+					<div class="logo d-flex justify-content-start align-items-center">
+						<img src="img/logo.png" alt="">
+						<span>Расходные материалы <br> для систем вентиляции <br> и кондиционирования</span>
+					</div>
+					<nav id="menu">
+						<a href="#">О компании</a>
+						<a href="#">Доставка</a>
+						<a href="#">Обмен и возврат</a>
+						<a href="#">Контакты</a>
+						<a href="#">Оплата</a>
+						<a href="#">Советы</a>
+					</nav>
+					<div class="together">
+						<div class="number">
+							<a href="tel:7 495 77 402 77">+7 495 77 402 77</a> <br>
+							<a href="tel:7 926 999 18 00">+7 926 999 18 00</a>
+						</div>
+						<div class="btn" id="myBtn"><a href="#">Заказать обратный звонок</a></div>
+						<div class="modal">
+							<div class="modal-wrapper">
+								<div class="modal-header">
+									<span class="closeBtn">&times;</span>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="col">
+											<input type="text" class="form-control" placeholder="Имя">
+										</div>
+										<div class="col">
+											<div class="col-padding-top">
+												<input type="text" class="form-control" placeholder="Телефон">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col-padding-top">
+												<input type="text" class="form-control" placeholder="E-mail">
+											</div>
+										</div>
+										<div class="col">
+											<div class="col-padding-top">
+												<input type="number" class="form-control" placeholder="Дата">
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<div class="btn">Заказать обратный званок</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="menuToggle">
+						<input type="checkbox">
+						<span id="span1"></span>
+						<span id="span2"></span>
+						<span id="span3"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<div class="container">
+				<div class="catalog-btn">
+					<img src="img/catalog.png" alt="">
+					<div class="text">
+						<a href="catalog.html">Каталог товаров</a>
+					</div>
+				</div>
+				<div class="offset__down-two">
+					<div class="page-form">
+						<input class="search-txt" type="text" name="" id="search-for"  placeholder="Поиск по товарам">
+						<a href="#" class="search-btn">
+							<a href="#"><img src="img/poisk.png" alt=""></a>
+						</a>
+					</div>
+					<div class="page-comparison">
+						<div class="comparison-btn">
+							<div class="icon">
+								<a href="#"><img src="img/icon_1.png" alt=""><div class="numeral"><span>4</span></div></a>
+							</div>
+						</div>
+						<div class="office-inline-flex">
+							<div class="office-btn">
+								<div class="office-icon">
+									<img src="img/icon_3.png " class="sm" alt="">
+									<span>Личный кабинет</span>
+									<img src="img/arrows-top___.png" id="rem" alt="">
+								</div>
+							</div>
+
+							<div class="office-btn-copy" id="office-btns">
+								<div class="span"><a href="#">Заказы</a></div>
+								<div class="span-border-tp"><a href="#">Список сравнения</a></div>
+								<div class="span-border-top"><a href="#">Отложенные товары</a></div>
+								<div class="btns">Войти</div>
+								<div class="btn">Регистрация</div>
+							</div>
+						</div>
+
+						<div class="purchase-inline-flex">
+							<div class="purchase-btn">
+								<div class="purchase-item">
+									<img src="img/icon_4.png" alt=""><div class="theere"><span>3</span></div>
+									<span> 9850<b>руб</b> </span>
+									<img src="img/arrows-top___.png " id="wi_num" alt="">
+								</div>	
+							</div>
+							<div class="purchase-btn-copy" id="purchase-btns">
+								<div class="purchase-btn-item">
+									<div class="purchase-btn-inline">
+										<div class="purchase-img">
+											<img src="img/service_1.png" alt="">
+										</div>
+									</div>
+									<div class="purchase-btn-inline">
+										<div class="span">
+											Вакуумный насос
+											Value VE125N
+										</div>
+										<p>Артикул: 06584497</p>
+										<span>1 шт</span>
+									</div>
+									<div class="purchase-btn-inline">
+										<div class="h1-lg">
+											<h5>6900 руб</h5>
+											<div class="btn">Удалить</div>
+										</div>
+									</div>
+								</div>
+								<div class="purchase-btn-item">
+									<div class="purchase-btn-inline">
+										<div class="purchase-img">
+											<img src="img/service_1.png" alt="">
+										</div>
+									</div>
+									<div class="purchase-btn-inline">
+										<div class="span">
+											Вакуумный насос
+											Value VE125N
+										</div>
+										<p>Артикул: 06584497</p>
+										<span>1 шт</span>
+									</div>
+									<div class="purchase-btn-inline">
+										<div class="h1-lg">
+											<h5>6900 руб</h5>
+											<div class="btn">Удалить</div>
+										</div>
+									</div>
+								</div>
+								<div class="purchase-texts">
+									<span>Всего 2 товар (ов) на общую сумму:</span>   
+									<h5>9 850 руб</h5>                           
+								</div>
+								<div class="purchase-btn-two">
+									<div class="btn">В корзину</div>
+									<div class="btns">Заказать</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="catalog__item">
+		<div class="container">
+			<div class="catalog__text">
+				<div class="span">Главная </div>
+				<img src="img/rows.png" alt="">
+				<div class="h5">Личный кобинет</div>
+				<img src="img/rows.png" alt="">
+				<div class="h5">Мои данные</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="product-info-buy">
+		<div class="container">
+			<div class="product-info-texts">
+				<p>Юридическое лицо</p>
+				<div class="product-info-lines"></div>
+			</div>
+		</div>
+	</div>
+
+	<section class="profile">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="speakers-form">
+						<div class="data-item">
+							<img src="img/arrows-right.png" alt="">
+							<div class="span active">Мои данные</div>
+						</div>
+						<div class="data-item">
+							<img src="img/arrows-right.png" alt="">
+							<div class="span">Мои заказы</div>
+						</div>
+						<div class="data-item">
+							<img src="img/arrows-right.png" alt="">
+							<div class="span">Отложенные товары</div>
+						</div>
+						<div class="data-item">
+							<img src="img/arrows-right.png" alt="">
+							<div class="span">Управление подписками</div>
+						</div>
+						<div class="data-item">
+							<img src="img/arrows-right.png" alt="">
+							<div class="span">Выйти из аккаунта</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="profile-wrapper">
+						<h1>Ваш профиль</h1>
+						<div class="user-inline">
+							<div class="user-item">
+								<div class="fill-fields">
+									<div class="fill-fields-item">
+
+										<div class="data-checkbox">
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck1">
+												<label class="custom-control-label" for="customCheck1"></label>
+											</div>
+											<div class="teext">
+												<p><b>Фамилия:</b> Иванов</p>	
+												<p><b>Имя:</b> Александр</p> 
+												<p><b>Адрес:</b> г. Москва, ул. Ленина 21/2, 33</p> 
+												<p><b>Телефон:</b> +7 890 789 88 88</p> 
+												<p><b>Статус:</b> Юридическое лицо</p>
+											</div>	
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="user-item">
+								<div class="fill-fields">
+									<div class="fill-fields-item">
+										<div class="data-checkbox">
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck2">
+												<label class="custom-control-label" for="customCheck2"></label>
+											</div>
+											<div class="teext">
+												<p><b>Фамилия:</b> Иванов</p>	
+												<p><b>Имя:</b> Александр</p> 
+												<p><b>Адрес:</b> г. Москва, ул. Ленина 21/2, 33</p> 
+												<p><b>Телефон:</b> +7 890 789 88 88</p> 
+												<p><b>Статус:</b> Физическое лицо</p>
+											</div>	
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="button">Добавить профиль</div>
+
+						<div class="data-user-copy">
+							<div class="h5">Личные данные</div>
+							<div class="data-inline">
+								<div class="data-block">
+									<div class="data-text">
+										<li>Тип профиля*</li>
+										<li>Электронная почта*</li>
+										<li>Имя*</li>
+										<li>Фамилия*</li>
+										<li>Телефон*</li>
+									</div>
+								</div>
+								<div class="data-block">
+									<div class="data-bottom">
+										<div class="data-checkbox">
+											<div class="custom-control custom-checkbox">
+												<input type="checkbox" class="custom-control-input" id="customCheck3">
+												<label class="custom-control-label" for="customCheck3">Физическое лицо</label>
+											</div>
+											<div class="custom-control custom-checkbox" id="customsCheck2">
+												<input type="checkbox" class="custom-control-input" id="customCheck4">
+												<label class="custom-control-label" for="customCheck4">Юридическое лицо</label>
+											</div>
+										</div>
+									</div>
+									<div class="data-check">
+										<div class="registering">
+											<form>
+												<div class="form-group">
+													<input type="email" class="form-control" id="inputEmail4" placeholder="turgenev@mail.ru">
+												</div>
+											</form>
+										</div>	
+										<div class="registering">
+											<form>
+												<div class="form-group">
+													<input type="name" class="form-control" id="inputName4" placeholder="Александр">
+												</div>
+											</form>
+										</div>
+										<div class="registering">
+											<form>
+												<div class="form-group">
+													<input type="surname" class="form-control" id="inputSurname4" placeholder="Иванов">
+												</div>
+											</form>
+										</div>
+										<div class="registering">
+											<form>
+												<div class="form-group">
+													<input type="phone" class="form-control" id="inputPhone4" placeholder="+7 890 980 89 89">
+												</div>
+											</form>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="user-data">
+							<div class="h5">Об организации</div>
+							<div class="user-flex">
+								<div class="personal-data">
+									<div class="title-text">
+										<li>Название организации*</li>
+										<li>Фактический адрес*</li>
+										<li>Юридический адрес*</li>
+										<li>БИК*</li>
+										<li>Корреспондетский счет*</li>
+										<li>Наименование банка*</li>
+										<li>Рассчетный счет*</li>
+										<li>ИНН*</li>
+										<li>КПП*</li>
+										<li>Генереальный директор</li>
+										<li>ОКПО</li>
+									</div>
+								</div>
+								<div class="personal-data">
+									<div class="input-title">
+										<form action="#">
+											<div class="form-inline">
+												<div class="form-group">
+													<select id="inputState" class="form-control">
+														<option selected>000</option>
+														<option>000</option>
+														<option>000</option>
+													</select>
+												</div>
+												<div class="form-group" id="change">
+													<input type="name" class="form-control" id="inputName4" placeholder="">
+												</div>
+											</div>
+											<div class="form-group">
+												<input type="name" class="form-control" id="inputName4" placeholder="">
+											</div>
+											<div class="form-group">
+												<input type="name" class="form-control" id="inputName4" placeholder="">
+											</div>
+
+											<div class="form-group">
+												<input type="name" class="form-control" id="inputName4" placeholder="">
+											</div>
+
+											<div class="form-group">
+												<input type="name" class="form-control" id="inputName4" placeholder="">
+											</div>
+
+											<div class="form-group">
+												<input type="name" class="form-control" id="inputName4" placeholder="">
+											</div>
+
+											<div class="form-group">
+												<input type="name" class="form-control" id="inputName4" placeholder="">
+											</div>
+
+											<div class="form-group">
+												<input type="name" class="form-control" id="inputName4" placeholder="">
+											</div>
+
+											<div class="form-group">
+												<input type="name" class="form-control" id="inputName4" placeholder="">
+											</div>
+
+											<div class="form-group">
+												<input type="name" class="form-control" id="inputName4" placeholder="">
+											</div>
+
+											<div class="form-group">
+												<input type="name" class="form-control" id="inputName4" placeholder="">
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div> 
+						<div class="user-data">
+							<div class="h5">Адрес доставки</div>
+							<div class="user-flex">
+								<div class="personal-data">
+									<div class="title-text">
+										<li>Населеный пункт*</li>
+										<li>Улица*</li>
+										<li>Дом/Корпус/Квартира*</li>
+										<li>Индекс*</li>
+									</div>
+								</div>
+								<div class="personal-data">
+									<form action="#">
+										<div class="form-group">
+											<input type="name" class="form-control" id="inputName4" placeholder="г. Москва">
+										</div>
+
+										<div class="form-group">
+											<input type="name" class="form-control" id="inputName4" placeholder="Ленина">
+										</div>
+
+										<div class="request-inline-copy">
+											<div class="form-flex">
+												<div class="form-centend">
+													<div class="form-row">
+														<div class="padding-null">
+															<input type="text" class="form-controls" id="validationDefault03" placeholder="12" required>
+														</div>
+														<div class="padding-null">
+															<input type="text" class="form-controls" id="validationDefault04" placeholder="2" required>
+														</div>
+														<div class="padding-null">
+															<input type="text" class="form-controls" id="validationDefault05" placeholder="21" required>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="form-group">
+											<input type="name" class="form-control" id="inputName4" placeholder="00001212">
+										</div>
+
+										<div class="btns">Сохранить данные</div>
+									</form>
+								</div>
+							</div>
+						</div>
+
+						<div class="user-data">
+							<div class="h5">Конфиденциальность</div>
+							<div class="user-flex">
+								<div class="personal-data-one">
+									<div class="title-text">
+										<li>Новый пароль*</li>
+										<li>Повторите пароль*</li>
+									</div>
+								</div>
+								<div class="personal-data-one">
+									<form action="#">
+										<div class="form-group">
+											<input type="name" class="form-control" id="inputName4" placeholder="">
+										</div>
+
+										<div class="form-group">
+											<input type="name" class="form-control" id="inputName4" placeholder="">
+										</div>
+										<div class="btns">Сохранить данные</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<div class="form-wrapper">
+					<div class="container ">
+						<div class="form-cen d-flex">
+							<div class="form-text">
+								<h2>Подпишитесь на рассылку</h2>
+								<p>и будьте в курсе всех акций нашего магазина</p>
+							</div>
+							<form>
+								<div class="form">
+									<div class="form-group">
+										<input type="email" class="form-control" id="inputEmail4" placeholder="Ведите ваш электроный адрес">
+									</div>
+								</div>
+							</form>
+							<div class="form-btn"><a href="#">Подписаться</a></div>
+						</div>
+					</div>
+				</div>
+
+				<footer>
+					<div class="footer">
+						<div class="container">
+							<div class="footer-cent d-flex justify-content-between">
+								<div class="block-wrap">
+									<h2>Компания</h2>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">О компании</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Контактная информация</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Советы</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Политика конфиденциальности</div>
+										</a>
+									</div>
+								</div>
+								<div class="block-wrap">
+									<h2>Кабинет покупателя</h2>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Войти</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Создать учетную запись</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Заказы</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Отложенные товары</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Список сравнения</div>
+										</a>
+									</div>
+								</div>
+								<div class="block-wrap ">
+									<h2>Магазин</h2>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Доставка</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Оплата</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Скачать прайс-лист</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-angle-right"></i>
+											<div class="tx-btn">Возврат и обмен</div>
+										</a>
+									</div>
+								</div>
+								<div class="block-wrap left">
+									<h2>Контакты</h2>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-map-marker-alt"></i>
+											<div class="tx-btn">г. Москва, ул. Люблинская, д.59</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-phone"></i>
+											<div class="tx-btn">+7 (495) 77-402-77</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-phone"></i>
+											<div class="tx-btn">+7 (926) 999-19-00</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-clock"></i>
+											<div class="tx-btn"> Пн-Пт: с 9:00 до 18:00</div>
+										</a>
+									</div>
+									<div class="block-link">
+										<a href="#">
+											<i class="fas fa-envelope"></i>
+											<div class="tx-btn"> Пн-Пт: с 9:00 до 18:00</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html> 
